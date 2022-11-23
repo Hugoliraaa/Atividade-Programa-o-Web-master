@@ -1,0 +1,120 @@
+
+body {
+    text-align: center;
+    background: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+header {
+    padding: 10px;
+    color: rgb(54, 53, 39);
+    text-align: center;
+    font-family: fonte dois;
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+
+main {
+   padding: 30px 50px; 
+   gap: 20px;
+   align-items: center;
+   justify-content: center;
+   margin-top: 25%;
+}
+
+.card {
+    font-size: 25px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 440px;
+    height: 380px;
+    padding:50px;
+    transform: translate(-50%, -50%);
+    
+    
+}
+
+.lineInput {
+    margin-bottom: 20px;
+    font: color #ccc;
+    
+}
+
+input {
+    color: aliceblue;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: 0;
+    background: rgba(0, 0, 0, .2);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+
+}
+
+:hover::placeholder{
+    color: #000;
+}
+
+.click1{
+    padding: 10px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .2);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+    margin-top: 7%;
+    left: 30%;
+    border: 1px solid #ccc;
+}
+
+.click2{
+    padding: 10px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .2);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+    right: 15%;
+    margin-top: 7%;
+    border: 1px solid #ccc;
+    
+}
+
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.tabela {
+    margin-top: 15px;
+    background: rgba(0, 0, 0, .2);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.0);
+   
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+table th {
+    background: linear-gradient(90deg, transparent,);
+    font-family: fonte dois;
+    font-size: 25px;
+}
+
+.center {
+    text-align: center;
+    color: aliceblue;
+}

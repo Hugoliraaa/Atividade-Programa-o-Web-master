@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATIVIDADE EDKALEN</title>
+    <script src="script2.js"></script>
+    <link href="estilo2.css" type="text/css" rel="stylesheet"/>
+    
+
+</head>
+<body>
+
+    <header>
+       <h1>MÉDIA DOS ALUNOS</h1> 
+    </header>
+
+    <main>
+        <div class="card">
+            <div class="lineInput">
+                <label for="">Aluno</label>
+                <input  type="text" id="aluno" placeholder="Digite o Nome">
+            </div>
+            <div class="lineInput">
+                <label for="">Nota 1</label>
+                <input type="number" id="nota1" placeholder="1° Nota">
+            </div>
+            <div class="lineInput">
+                <label for="">Nota 2</label>
+                <input type="number" id="nota2" placeholder="2° Nota">
+            </div>
+            <div class="lineInput">
+                <label for="">Nota 3</label>
+                <input type="number" id="nota3" placeholder="3° Nota">
+            </div>
+            
+
+            <button class="click1" onclick="aluno.salvar()">Anexar</button>
+            <button class="click2" onclick="aluno.limpar()">Limpar</button>
+        </div>
+
+        <div class="tabela">
+            <table border="2">
+                <thead>
+                    <th>Nome do Aluno</th>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                    <th>Nota 3</th>
+                    <th>Media</th>
+                </thead>
+                <tbody id="tbody"></tbody>
+            </table>
+        </div>
+            
+        
+    </main>
+
+    
+    
+</body>
+</html>
